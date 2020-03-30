@@ -1,0 +1,131 @@
+/* general --------------------- */
+body {
+    background-color: rgb(161, 227, 253);
+}
+
+hr {
+    background-color: rgb(238, 237, 237);
+    border: none;
+    height: 0.50px;
+    width: 85%;
+}
+
+/* card --------------------- */
+.card {
+    background-color: white;
+    border-radius: 10px;
+    margin: 90px auto;
+    overflow: hidden;
+    width: 25%;
+}
+
+/* header --------------------- */
+header {
+    position: relative;
+}
+
+header img {
+    width: 100%;
+}
+
+header .tag0 {
+    background-color: fuchsia;
+    border-radius: 50%;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px; 
+    left: 20px;
+    padding: 15px 15px 15px 15px;
+    position: absolute;
+    top: 5px;
+    text-align: center;
+    width: 45px;
+}
+
+.tag0 span {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+header .tag1 {
+    background-color: #38afff;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    left: 20px;
+    padding: 5px 20px;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    top: 175px;
+}
+
+/* content --------------------- */
+.content {
+    padding: 10px 25px;
+}
+
+.content h3 {
+    color: #474646;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 1px;
+}
+
+.content p {
+    color: rgb(165, 165, 165);
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    margin: -13px 0 12px 0;
+}
+
+.content small {
+    color: rgb(165, 165, 165);
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+}
+
+.content .date {
+    background-color: rgb(211, 211, 211);
+    border-radius: 5px;
+    color: white;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px; 
+    font-weight: bold;
+    margin: 6px 6px 6px 0px;
+    padding: 3px 3px;
+    text-align: center;
+    width: 40px;
+}
+
+.date span {
+    font-size: 12px; 
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+/* footer --------------------- */
+footer {
+    padding: 12px 25px;
+}
+
+footer a {
+    color: #e0e0e0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    padding-right: 25px;
+    text-decoration: none;
+}
+
+.card footer i {
+    font-size: 20px;
+    margin-top: -5px;
+    padding-right: 2px;
+}
+
+.fa-ellipsis-h {
+    float: right
+}
+
+

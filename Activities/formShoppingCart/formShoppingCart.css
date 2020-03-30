@@ -1,0 +1,256 @@
+/* general ------------------------------*/
+body {
+    background-color: rgb(104, 36, 194);
+    margin: 12px 250px;
+}
+
+h1 {
+    color: rgb(53, 52, 52);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+h3 {
+    position: relative;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    width: 42%;
+    padding: 22px 5px;
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    border-radius: 3px;
+}
+
+p {
+    font-size: 12px;
+    font-weight: normal;
+    margin-top: 1px;
+    margin-bottom: 0px;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(1, 153, 199);
+}
+
+/* header ------------------------------*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 8% 0 8%;
+}
+
+.brand {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;   
+    font-weight: bolder;
+    color: #6824c2;
+    font-size: 23px;
+}
+
+nav a {
+    padding: 0 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    color: rgb(209, 206, 206);
+}
+
+nav a i {
+    font-size: 6px;
+    padding-left: 8px;
+}
+
+.fa-shopping-cart {
+    color: #6824c2;
+    font-size: 20px;
+}
+
+a span {
+    margin-top: -5px;
+    font-size: 10px;
+    height: 15px;
+    background-color: red;
+    color: white;
+    width: 18px;
+    text-align: center;
+    border-radius: 23px;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: bolder;
+    padding-top: 3px;
+}
+
+/* container ------------------------------*/
+.container {
+    height: 580px;
+    box-shadow: 0 15px 15px rgb(0, 0, 0, 0.3);
+    margin-bottom: 0;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.content {
+    display: flex;
+    height: auto;
+}
+
+/* content-form ------------------------------*/
+.content-form {
+    width: 50%;
+    position: relative;
+    background-color: #f5f4f4;
+    padding-top: 20px;
+    border-radius: 3px;
+    margin: 35px 10px 0 35px;
+    border: 1px solid #ccc;
+}
+
+form {
+    padding: 20px 30px 20px 30px;
+}
+
+form label {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    color: rgb(209, 206, 206);
+    padding-left: 10px;
+}
+
+input[type=text], input[type=email], input[type=tel] {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    margin: 5px 0 6px 0;
+    padding: 10px 9px;
+    padding-left: 10px;
+    width: 40%;
+}
+
+.lastName {
+    position: absolute;
+    top: 77px;
+    left: 210px;
+}
+    
+.country {
+    position: absolute;
+    top: 278px;
+    left: 210px;
+    width: 54.40%;
+}
+
+.lastName input, .country select {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    margin: 5px 0 5px 0;
+    padding: 10px 12px;
+    padding-left: 10px;
+    width: 69.90%;
+}
+
+.tel {
+    position: relative;
+}
+
+.tel input {
+    padding-left: 60px;
+    width: 78.70%;
+}
+
+.tel span {
+    background-color: rgb(179, 179, 179);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    left: 0;
+    padding: 10px 13px;
+    position: absolute;
+    top: 24px;
+}
+
+/* content-delivery ------------------------------*/
+.content .content-delivery {
+    height: 250px;
+}
+
+.content-delivery {
+    width: 50%;
+    position: relative;
+    border: 1px solid #ccc;
+    background-color: #f5f4f4;
+    padding-top: 20px;
+    border-radius: 3px;
+    margin: 35px 35px 0 10px;
+}
+
+.delivery {
+    padding: 20px 30px 20px 30px;
+}
+
+.delivery label {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    color: rgb(209, 206, 206);
+    padding-left: 10px;
+}
+
+span {
+    font-size: 20px;
+    position: absolute;
+}
+  
+.price {
+    position: absolute;
+    right: 109px;
+    top: 94.90px;
+}
+
+.price h3 {
+    width: 180%;
+    padding: 22px 10px;
+    text-align: center;
+    background-color: #6824c2;
+    border-radius: 3px;
+}
+
+.text {
+    margin-top: -22px;
+}
+
+.text p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    padding-left: 10px;
+    padding-bottom: 4px;
+    color: rgb(197, 193, 193);
+}
+
+.checkbox label {
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;  
+    color: rgb(168, 167, 167); 
+}
+
+button {
+    margin-top: 26px;
+    background-color: #6824c2;;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 23px 23px;
+    width: 100%;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    border-radius: 3px;
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form Shopping Cart</title>
+        <!-- style -->
+        <link rel="stylesheet" href="formShoppingCart.css">
+        <!-- fontawesome -->
+        <link rel="stylesheet" href="fontawesome-free/css/all.min.css">
+        <!-- font family -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+        <!-- container -->
+        <div class="container">
+            
+            <!-- header -->
+            <header>
+                <a class="brand" href="">Shppng</a>
+                <nav>
+                    <a href="">Shopping Bag <i class="fa fa-play"></i></a>
+                    <a style="color: #6824c2;" href="">Checkout <i class="fa fa-play"></i></a>
+                    <a href="">Confirmation</a>
+                </nav>
+                <a href=""><i class="fas fa-shopping-cart"></i><span>1</span></a>
+            </header> <!-- end header -->
+
+            <!-- content -->
+            <div class="content">
+                
+                <!-- content-form -->
+                <div class="content-form">
+                    <h1>Personal Information</h1>
+                    
+                    <form action="#" method="get">
+                        <label>First Name</label> <br/> 
+                        <input type="text" name="text" 
+                            placeholder="First name" />
+                        
+                        <div class="lastName">
+                            <label>Last Name</label><br>
+                            <input  type="text" name="text" 
+                                placeholder="Last name" />
+                        </div> <br/>
+                       
+                        <label>Email Address</label> 
+                        <input style="width: 94%;" type="email" name="email" 
+                            placeholder="Email address" />
+                        
+                        <label>Street</label> 
+                        <input style="width: 94%;" type="text" name="text" 
+                            placeholder="Street" />
+
+                        <label>City</label> <br/> 
+                        <input type="text" name="text"  placeholder="City" />
+                                
+                        <div class="country">
+                            <label>Country</label> <br/>
+                            <select name="select">
+                                <option value="-1">- Seleccionar -</option>
+                                <option value="Argentina">France</option>
+                                <option value="Chile">Germany</option>
+                                <option value="Venezuela">Italy</option>
+                                <option value="Colombia">UK</option>
+                                <option value="Peru">USA</option>
+                            </select>
+                        </div> <br/>
+                        
+                        <div class="tel">
+                            <label>Phone Number</label> 
+                            <span>+33</span>
+                            <input type="tel" name="tel" placeholder="12345678" />
+                        </div>
+                    </form>
+                </div> <!-- content-form -->
+
+                <!-- content-delivery -->
+                <div class="content-delivery">
+                    <h1>Delivery</h1>
+                
+                    <!-- delivery -->
+                    <div class="delivery">
+                        <label>Delivery</label> 
+                        <h3 style="color: #6824c2;">0 <span>$</span> 
+                            <p style="color:#929191;">3-4 weeks</p></h3>
+                        
+                        <div class="price">
+                            <h3 style="color: white">5 <span>$</span> 
+                                <p style="color: #b791e9;">2-5 days</p></h3>
+                        </div>
+
+                        <span class="text">
+                            <p>Estimated delivery date: 
+                                <strong style="color: gray">August 4th.</strong></p>
+                            <p>Every package has a tracking number.</p>
+                        </span> 
+                    </div> <!-- end delivery -->
+                    
+                    <!-- checkbox -->
+                    <div style="margin-top: 40px;">
+                        <div class="checkbox">
+                            <input type="checkbox" name="checkbox0" value="checkbox0" />
+                            <label>Subscribe to our newsletter</label>
+                        </div>
+                    
+                        <div class="checkbox">
+                            <input type="checkbox" name="checkbox1" value="checkbox1" />
+                            <label>Create an account</label>
+                        </div>
+                    </div> <!-- end checkbox -->
+
+                    <button>Confirm my order</button>
+
+                </div> <!-- end content-delivery -->
+
+            </div> <!-- end content -->
+        </div> <!-- end container -->
+    </body>
+</html>

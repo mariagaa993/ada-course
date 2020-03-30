@@ -1,0 +1,67 @@
+/* # = id
+. = class
+*/
+
+body {
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Sriracha', cursive;
+    text-align: center;
+}
+
+.firstHeading {
+    color: rgb(15, 163, 248);
+}
+
+#secondHeading {
+    color: rgb(15, 163, 248);
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 100px 0 100px;
+    text-align: center;
+}
+
+.block {
+    display: block;
+    width: 50%;
+}
+
+a {
+    color: rgb(15, 163, 248);
+    text-decoration: none;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+.container {
+    background-color: rgb(197, 229, 248);
+    padding: 10px 0 50px 0;
+}
+
+.box-model {
+    background-color: rgb(150, 199, 228);
+    padding: 10px 0 50px 0;
+    text-align: center;
+}
+
+.inline {
+    background-color: rgb(153, 213, 248);
+    border: 2px dotted rgb(15, 163, 248);
+    display: inline-block;
+    font-family: 'Work Sans', sans-serif;
+    margin: 20px;
+    padding: 15px;
+    width: 40%;
+}
+
+img {
+    display: block; 
+    margin: auto;  
+    width: 30%;
+}

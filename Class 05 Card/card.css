@@ -1,0 +1,129 @@
+/* card 0 --------------------- */
+.container {
+    background-color: #0C154A;
+    margin: 60px auto;
+    padding: 35px 35px 6px 35px;
+    width: 50%;
+}
+
+.card {
+    height: 420px;
+    width: 100%;
+}
+  
+.card-img img {
+    float: left;
+    height: 420px;
+    width: 40%;
+}
+  
+.card-details {
+    background-color: #ffffff;
+    box-shadow: 35px 35px purple;
+    float: left;
+    height: 420px;
+    width: 60%;
+}
+
+ul {
+    list-style: none;
+    text-align: right;
+}
+
+ul li{
+    display: inline;
+    margin: 0 10px 0 0;
+}
+
+ul li a img {
+    width: 20px;
+}
+  
+.card-text {
+    height: 300px;
+    width: 327px;
+}
+  
+.card-text h1 {
+    color: purple;
+    font-family: 'Righteous', serif;
+    font-size: 50px;
+    margin: 0 0 0 38px;
+}
+  
+.card-text h2 {
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.2em;
+    margin: 0 0 25px 38px;
+    text-transform: uppercase;
+}
+
+.card-text p {
+    color: #8d8d8d;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    height: 125px;
+    line-height: 1.7em;
+    margin: 0 0 0 38px;
+}
+
+.card-text a {
+    background-color: purple;
+    border-radius: 50px;
+    color: #8d8d8d;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.2em;
+    margin: 0 0 0 38px;
+    padding: 10px 15px 10px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+footer {
+    color: #8d8d8d;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    padding-top: 9px;
+    text-align: right;
+}
+
+/* card-1 --------------------- */
+.card-1 {
+    background-color: lightpink;
+    margin: 50px auto;
+    width: 25%;
+}
+
+header img {
+    width: 100%;
+}
+
+.card-1 .content {
+    padding: 10px;
+}
+
+.content h1 {
+    color: hotpink;
+    font-family: 'Righteous', serif;
+}
+
+.content p {
+    color: gray;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+}
+
+.card-1 footer {
+    background-color: hotpink;
+    padding: 7px;
+    text-align: center;
+}
+
+.second {
+    text-decoration: none;
+    color: lightpink;
+    text-align: center;
+}

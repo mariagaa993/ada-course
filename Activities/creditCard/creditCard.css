@@ -1,0 +1,130 @@
+/* general ------------------------------*/
+body {
+    background: #fbcad2;
+}
+
+/* container ------------------------------*/
+.container {
+    box-shadow: 0 0 12px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+    display: flex;
+    height: 550px;
+    margin: 40px auto;
+    overflow: hidden;
+    width: 60%;
+}
+
+/* content-img ------------------------------*/
+.content-img {
+    background-color: white;
+    text-align: center;
+    width: 50%;   
+}
+
+header {
+    padding: 110px 50px 10px 50px;
+    text-align: center;
+}
+
+header img {
+    width: 100%;
+}
+
+a img {
+    padding: 20px 4px 0 0;
+    text-align: center;
+    width: 11px;
+}
+
+.content-img h1 {
+    color: #474646;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0px;
+}
+
+.content-img small {
+    color: #a5a5a5;
+    font-family: 'Poppins', sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+/* content-card ------------------------------*/
+.content-card {
+    background-color: #494949;
+    width: 50%;
+}
+
+.settings {
+    background-color: rgba(44, 44, 44, 0.3);
+    border-radius: 5px;
+    color: rgb(87, 87, 87); 
+    font-size: 15px;
+    left: 75%;
+    padding: 5px 10px;
+    position: absolute; 
+    top: 8%;
+}
+
+.content-card img {
+    left: 53.80%;
+    position: absolute;
+    top: 110px;
+    width: 50px;
+}
+
+.content-card h1 {
+    color: #f3f3f3;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    padding: 65px 0 35px 113px;
+}
+
+.content-card small {
+    color: #a5a5a5;
+    font-family: 'Poppins', sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding-left: 55px;
+    text-transform: uppercase;
+}
+
+.content-card p {
+    color: #f3f3f3;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    letter-spacing: 3px;
+    margin: 5px 0 25px 0;
+    padding-left: 55px;
+}
+
+.cvc-position  {
+    left: 63%;
+    position: absolute;
+    top: 55.40%;
+}
+
+button {
+    background-color: #00D1B2;
+    border: none;
+    border-radius: 40px;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 55px;
+    margin-top: 30px;
+    padding: 16px 0;
+    text-transform: uppercase;
+    width: 70%;
+}
+
+button i {
+    position: absolute;
+    left: 71%;
+}
+
+
