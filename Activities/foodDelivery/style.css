@@ -1,0 +1,487 @@
+body {
+    background: linear-gradient(to right, #ff00cc, #333399);
+    height: 560px;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.4);
+    height: 1200px;
+    margin: 4% auto;
+    position: relative;
+    overflow: hidden;
+    width: 90%;
+}
+
+/* header -------------------------------------------------- */
+header {
+    display: flex;
+    padding:  20px 0 20px 0;
+    position: relative;
+}
+
+.brand { 
+    padding: 10px 0 0 90px;   
+}
+
+form {
+    margin: 0 20px 0 160px;
+    width: 29.50%;
+}
+
+form label {
+    color: #ccc;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+}
+
+.fa-map-marker-alt {
+    color: #c3c3c3;
+    font-size: 16px;
+    padding: 0 5px 0 0;
+}
+
+.fa-pencil-alt {
+    color: #424463;
+    font-size: 11px;
+    margin-left: -16px;
+}
+
+input[type=text] {
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 0 0 0 5px;
+    width: 63%;
+}
+
+.text-input {
+    border: 1px solid #eeeded;
+    border-radius: 13px;
+    margin: 17px 0 0 0;
+    padding: 9px 9px;
+    padding-left: 10px;
+    position: relative;
+    width: 93%;
+}
+
+.text-input input::placeholder {
+    color: #ccc;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.text-input span {
+    color: #c3c3c3; 
+    padding: 10px 13px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.header-img {
+    margin-top: -18px;
+    position: relative;
+    width: 6%;
+}
+   
+.header-img img {
+    width: 100%;
+}
+   
+   
+.header-img .img-second {
+    left: 0;
+    position: absolute;
+    top: 10px; 
+}
+   
+.header-img .img-third {
+    left: 0;
+    position: absolute;
+    top: 20px;
+}
+
+.order {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    height: 91px;
+    position: absolute;
+    right: 90px;
+    text-align: center;
+    top: 0;
+}
+
+.order-navbar {
+    background-color: #424463;
+    color: #ccc;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    list-style: none;
+    margin-top: -4px;
+    padding: 8px 15px;
+}
+
+.order-navbar li {
+    display: inline-block;
+    padding: 0 40px;
+}
+
+.fa-shopping-cart {
+    padding-right: 3px;
+}
+
+.order button[type=submit] {
+    background: linear-gradient(to right, #333399, #ff00cc);
+    border: none;
+    border-radius: 12px;
+    color: #e9e9e9;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin-top: -3px;
+    padding: 10px 13px;
+    text-transform: uppercase;
+    width: 90%;
+}
+
+/* hero -------------------------------------------------- */
+.hero {
+    box-shadow: inset 0 0 60px rgba(219, 218, 218, 0.5);
+    display: flex;
+    height: 470px;
+    overflow: hidden;
+}
+
+.img-content {
+    position: relative;
+    width: 50%;
+}
+
+.img-content img {
+    background-color: white;
+    box-shadow: 0 0 10px rgba(146, 146, 146, 0.3);
+    border: 5px solid white;
+    border-radius: 100%;
+    padding: 50px;
+    position: absolute;
+    right: 25px;
+    top: 15%;
+    width: 60%;
+}
+
+.img-content button {
+    background-color: #424463;
+    border: none;
+    border-radius: 12px;
+    color: #ccc;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    left: -32px;
+    padding: 15px 20px;
+    position: absolute;
+    text-align: right;
+    top: 16%;
+    width: 37%;
+}
+
+.fa-angle-left {
+    margin-right: 3px;
+}
+
+.content {
+    position: relative;
+    width: 50%;
+}
+
+.content h1 {
+    color: #424463;
+    font-size: 56px;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 6.50px;
+    letter-spacing: 1px;
+    position: absolute;
+}
+
+.chilli {
+    position: absolute;
+    top: 28%;
+    width: 50%;
+}
+
+.chilli-img img {
+    width: 40px;
+}
+
+.chilli-img .chi2 {
+    left: 25px;
+    position: absolute;
+}
+
+.chilli-img .chi3 {
+    left: 50px;
+    position: absolute;
+}
+
+.chilli-img .chi4 {
+    left: 75px;
+    position: absolute;
+}
+
+.chilli-img .chi5 {
+    left: 100px;
+    position: absolute;
+}
+
+.chilli-img p {
+    color: #424463;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    left: 145px;
+    position: absolute;
+    top: -3px; 
+}
+
+.content .food-text, .food-text1 {
+    color: #424463;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    left: 6.50px;
+    position: absolute;
+    top: 35%;
+}
+
+.content .food-text1 {
+    top: 39%;
+}
+
+.quantity-order {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(128, 128, 128, 0.2);
+    left: 6.50px;
+    padding: 0 10px;
+    position: absolute;
+    top: 48%;
+}
+
+.quantity-order li {
+    color: #424463;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    list-style: none;
+    padding: 10px 13px;
+    text-align: center; 
+}
+
+.content .price {
+    border: 1px solid #dfdfdf;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 25px;
+    color: #424463;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    left: 190px;
+    padding: 7px 30px 7px 20px;
+    position: absolute;
+    top: 47%;
+}
+
+.content button[type=submit] {
+    background: linear-gradient(to right, #333399, #ff00cc);
+    border: none;
+    border-radius: 15px;
+    color: #e9e9e9;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+    padding: 14px 17.50%;
+    position: absolute;
+    text-transform: uppercase; 
+    left: 6.50px;
+    top: 63%;
+}
+
+/* hero-components -------------------------------------------------- */
+/* ingredientes ------------ */
+.ingredients {
+    left: 50.50%;
+    position: absolute;
+    top: 39%;
+}
+
+.ingredients ul {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(128, 128, 128, 0.4);
+    height: 140px;
+    padding: 10px 0 0 20px;
+    width: 81.70%;    
+}
+
+.ingredients li {
+    display: inline-block;
+    list-style: none;
+    padding: 20px 130px 20px 0;
+    position: relative;
+}
+
+.ingredients img {
+    width: 28px;
+}
+
+.ingredients p {
+    color: #424463;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    left: 45px;
+    position: absolute;
+    top: 20px;
+}
+
+.ingredients p span {
+    color: #ccc;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    position: absolute;
+    top: -18px;
+}
+
+/* step-navbar ------------ */
+.step-navbar {
+    padding-left: 50px;
+}
+
+.step-navbar li {
+    display: inline-block;
+    padding: 10px 0 0 0;
+}
+
+.step-navbar li a {
+    color: #424463;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;   
+    font-weight: 500;
+}
+
+.fa-angle-right {
+    padding: 0 6px;
+}
+
+/* food-content -------------------------------------------------- */
+.food-content {
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+}
+
+.background {
+    background-color: #f6f6f6;
+    height: 140px;
+    width: 100%;
+    position: absolute;
+    top: 71.5%;
+}
+
+.food-menu {
+    padding: 10px 0 0 86px;
+    width: 100%;
+}
+
+.food-menu li {
+    color: #424463;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    list-style: none;
+    padding: 15px 120px 10px 0;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.card-container .card {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(128, 128, 128, 0.3);
+    height: 230px;   
+    margin: -10px 13px 0 13px;
+    padding: 0 22px;
+    position: relative;
+    text-align: center;
+}
+
+.card-container img {   
+    background-color: white;
+    border: 5px solid white;
+    border-radius: 100%;
+    box-shadow: 0 0 10px rgba(146, 146, 146, 0.3);
+    left: 53px;
+    padding: 5px;
+    position: absolute;
+    top: -30%;
+    width: 50%;
+}
+
+.card h5 {
+    color: #424463;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 80px; 
+    font-size: 14px;
+}
+
+.card p {
+    color: #ccc;
+    font-family: 'Roboto', sans-serif; 
+    font-size: 12px;
+    margin: -17px 0 20px 0;
+}
+
+.food-price {
+    border: 1px solid #dfdfdf;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 25px;
+    color: #424463;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    padding: 6px 20px;
+}
+
+.card .fa-info-circle {
+    color: #cecece;
+    cursor: pointer;
+    font-size: 17px;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+}
+
+.food-buy {
+    background-color: #fd218f;
+    border: none;
+    border-radius: 100%;
+    box-shadow: 0 0 10px rgba(146, 146, 146, 0.3);
+    color: #f5f5f5;
+    font-size: 30px;
+    padding: 7px 15px;
+    position: absolute;
+    right: 95px;
+    top: 89%;
+}

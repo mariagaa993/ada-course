@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Food Delivery</title>
+        <!-- style -->
+        <link rel="stylesheet" href="style.css">
+        <!-- font family -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto:700,500,400,300&display=swap" rel="stylesheet">
+        <!-- fontawesome -->
+        <link rel="stylesheet" href="fontawesome-free/css/all.min.css">
+    </head>
+    <body>
+
+        <div class="container">
+
+            <!-- header -->
+            <header>
+                <a class="brand" href="#"><img src="img/logo.png" alt="Logo" /></a> 
+           
+                <form action="" method="get">
+                    <label for="location"><i class="fas fa-map-marker-alt"></i> My location:</label>
+                    <input type="text" name="location" value="Down Town Brooklyn, str 29, box 14">
+                    <span><i class="fas fa-pencil-alt"></i></span>
+                    <div class="text-input">
+                        <input type="text" name="text" placeholder="What do you want?" />
+                        <span><i class="fas fa-search"></i></span>
+                    </div>
+                </form>
+
+                <div class="header-img">
+                    <img src="img/header.png" alt="Food" />
+                    <img class="img-second" src="img/header.png" alt="Food" />
+                    <img class="img-third" src="img/header.png" alt="Food" />
+                </div>
+            
+                <div class="order">
+                    <ul class="order-navbar">
+                        <li style="padding-left: 0; padding-right: 0; 
+                            border-bottom: 1px dashed #ccc;">3 dishes</li>
+                        <li style="padding-right: 0; color: #e9e9e9; font-size: 17px;">$ 56</li>
+                        <li style="padding-right: 0;"><i class="fas fa-shopping-cart"></i>
+                            Cart</li>
+                    </ul>
+                    <button type="submit">Order</button>
+                </div>
+            </header> <!-- end header -->
+
+            <!-- hero -->
+            <section class="hero">
+                
+                <!-- content-img -->
+                <div class="img-content">
+                    <img src="img/pizza.png" alt="Pizza">
+                    <button><i class="fas fa-angle-left"></i> Back to Menu</button>
+                </div> <!-- end content-img -->
+
+                <!-- content-img -->
+                <div class="content">
+                    <h1>Tomato Pomadoro</h1>
+                    <div class="chilli chilli-img">
+                        <img src="img/chilli.svg" alt="Chilli">
+                        <img class="chi2" src="img/chilli.svg" alt="Chilli">
+                        <img class="chi3" src="img/chilli.svg" alt="Chilli">
+                        <img class="chi4" src="img/chilli.svg" alt="Chilli">
+                        <img class="chi5" src="img/chilli (1).svg" alt="Chilli">
+                        <p>Hot as Hell !</p>
+                    </div>
+                    <p class="food-text">The amazing sauce accentuates the crust, cheese and </p>
+                    <p class="food-text1">other toppings as it bakes in with the entire pizza...</p>
+
+                    <ul class="quantity-order">
+                        <li style="cursor: pointer;">-</li>
+                        <li style="padding: 10px 25px;
+                            border-left:1px solid #eeeeee;
+                            border-right:1px solid #eeeeee">1</li>
+                        <li style="cursor: pointer;">+</li>
+                    </ul>
+                    <p class="price">Price: <span style="color: #fd218f;
+                        font-weight: bold;">$14</span></p>
+                    <button type="submit">Add to cart</button>             
+                </div> <!-- content -->
+            </section> <!-- end hero -->
+
+            <!-- ingredients // hero components -->
+            <div class="ingredients">
+                <ul>
+                    <li><img src="img/cheese.svg" alt="Cheese">
+                        <p><span>60g</span> Mozzarella</p></li>
+                    <li><img src="img/bacon.svg" alt="Bacon">
+                        <p><span>120g</span> Bacon</p></li>
+                    <li><img src="img/ham.svg" alt="Ham">
+                        <p><span>200g</span> Ham</p></li>
+                    <li><img src="img/sausage.svg" alt="Sausage">
+                        <p><span>100g</span> Sausages</p></li>
+                    <li><img src="img/chicken.svg" alt="Chicken">
+                        <p><span>20g</span> Chicken Fillet</p></li>
+                    <li><img src="img/pizza.svg" alt="Pizza">
+                        <p><span>50g</span> Pizza Base</p></li>                   
+                </ul>
+            </div> <!-- end ingredients -->
+
+            <!-- step-navbar -->
+            <div class="step-navbar">
+                <ul>
+                    <li><a href="">Find Food <i class="fas fa-angle-right"></i></a></li>
+                    <li><a href="">Riviera Restaurant <i style="color: #ccc" 
+                        class="fas fa-angle-right"></i></a></li>
+                    <li><a style="color: #ccc; text-decoration: none;" 
+                        href="">Tomato Pomadoro</a></li>
+                </ul>
+            </div> <!-- end step-navbar // hero components -->
+
+            <!-- food-content -->
+            <section class="food-content">
+                <ul class="food-menu">
+                    <li style="padding-right: 6px; 
+                        border-bottom: 4px solid #787a9e; ">Tastes good with</li>
+                    <li style="padding-left: 12%;">Feedbacks <span 
+                        style="color: #ccc">(10)</span></li>
+                    <li>Detailed info</li>
+                    <hr style="margin: -2px 89px 0 0; border: none; 
+                        height: 1px; background-color: #ebebeb">
+                </ul>
+                
+                <div class="background"></div>
+                
+                <!-- card-container -->
+                <div class="card-container">
+                    <div class="card" >
+                        <img src="img/chickenfood.png" alt="Chicken Food"/>
+                        <h5>Hot Pepper Chicken</h5>
+                        <p>Cayen pepper, water mellon, mango...</p>
+                        <span class="food-price">$ 14</span>
+                        <i class="fas fa-info-circle"></i>
+                        <button class="food-buy">+</button>
+                    </div>
+                
+                    <div class="card">
+                        <img src="img/rice.png" alt="Rice"/>
+                        <h5>Rice Italliano</h5>
+                        <p>Perreroni, water, mozzarella, tomato...</p>
+                        <span class="food-price">$ 28</span>
+                        <i class="fas fa-info-circle"></i>
+                        <button class="food-buy">+</button>
+                    </div>
+        
+                    <div class="card">
+                        <img src="img/header.png" alt="Rice(1)"/>
+                        <h5>Miso Rice</h5>
+                        <p>Green pods, water, rice, chicken salt...</p>
+                        <span class="food-price">$ 10</span>
+                        <i class="fas fa-info-circle"></i>
+                        <button class="food-buy">+</button>
+                    </div>
+        
+                    <div class="card">
+                        <img src="img/rice.png" alt="Rice"/>
+                        <h5>Rice Grande</h5>
+                        <p>Ham, red pepper, eggs, mushrooms...</p>
+                        <span class="food-price">$ 12</span>
+                        <i class="fas fa-info-circle"></i>
+                        <button class="food-buy">+</button>
+                        </div>
+                </div> <!-- end card-container -->
+            </section> <!-- end food-content -->
+        </div> <!-- end container -->
+    </body>
+</html>
